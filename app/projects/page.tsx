@@ -114,8 +114,14 @@ export default function ProjectPage() {
     {
       year: '2024',
       name: 'Portfolio v.2',
-      tools: ['Codeigniter', 'Bootstrap'],
+      tools: ['Next.js', 'Tailwind CSS'],
       link: 'https://fikri-mf.vercel.app',
+    },
+    {
+      year: '2024',
+      name: 'Fukurou Space',
+      tools: ['Next.js', 'Tailwind CSS'],
+      link: 'https://fukurou-space.vercel.app',
     },
   ]
 
