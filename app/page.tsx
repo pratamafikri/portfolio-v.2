@@ -17,7 +17,7 @@ export default function Home() {
     setTimeout(() => {
       setActiveSection(section)
       setloadingSection(false)
-    }, 500)
+    }, 300)
   }
 
   return (
@@ -165,20 +165,16 @@ export default function Home() {
                               </div>
                             </h3>
                             <p className='mt-2 text-sm leading-normal text-justify'>
-                              Developed and maintained websites, mobile apps, and desktop applications
-                              including CRM, HRIS, Admin Dashboard, and more. Providing tech solution for the company
-                              through brainstorming, collaboration, and knowledge shares.
+                              Developed and maintained websites, mobile apps, and desktop applications including CRM,
+                              HRIS, Admin Dashboard, and more. Providing tech solution for the company through
+                              brainstorming, collaboration, and knowledge shares.
                             </p>
                             <ul className='mt-2 flex flex-wrap'>
-                              <TechBadge name={'Javascript'} />
                               <TechBadge name={'Vue.js'} />
-                              <TechBadge name={'Phyton'} />
                               <TechBadge name={'Django'} />
-                              <TechBadge name={'OpenCV'} />
-                              <TechBadge name={'PHP'} />
                               <TechBadge name={'Codeigniter'} />
                               <TechBadge name={'Bootstrap'} />
-                              <TechBadge name={'HTML & CSS'} />
+                              <TechBadge name={'JavaFX'} />
                               <TechBadge name={'Flutter'} />
                             </ul>
                           </div>
@@ -206,14 +202,10 @@ export default function Home() {
                               guestbook, cashier application for school cooperatives, and more.
                             </p>
                             <ul className='mt-2 flex flex-wrap'>
-                              <TechBadge name={'Android Studio'} />
                               <TechBadge name={'Java'} />
-                              <TechBadge name={'Javascript'} />
                               <TechBadge name={'JQuery'} />
-                              <TechBadge name={'PHP'} />
                               <TechBadge name={'Codeigniter'} />
                               <TechBadge name={'Bootstrap'} />
-                              <TechBadge name={'HTML & CSS'} />
                             </ul>
                           </div>
                         </div>
@@ -229,20 +221,20 @@ export default function Home() {
                     <h2 className='text-sm font-bold uppercase tracking-widest lg:sr-only'>Projects</h2>
                   </div>
                   <div>
-                    <ul className='group/list '>
+                    <ul className='group/list'>
                       <li className='mb-12'>
                         <div className='group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50'>
                           <div className='absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none lg:-inset-x-6 lg:block lg:group-hover:bg-primary/10 lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg'></div>
                           <div className='z-10 sm:order-2 sm:col-span-6'>
                             <h3>
                               <a
-                                href='https://apps.priadi.id'
+                                href='https://fukurou-space.vercel.app/'
                                 target='_blank'
                                 rel='noreferrer noopener'
                                 className='inline-flex items-baseline font-medium leading-tight hover:text-primary focus-visible:text-primary group/link text-base'>
                                 <span className='absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block'></span>
                                 <span>
-                                  PRiADI Finger Test
+                                  fukurou-space
                                   <span className='inline-block'>
                                     <MdArrowOutward className='inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px' />
                                   </span>
@@ -250,22 +242,20 @@ export default function Home() {
                               </a>
                             </h3>
                             <p className='mt-2 text-sm leading-normal'>
-                              Web application for taking fingerprints photo to be processed later as a psychological
-                              data.
+                              A project meant to be a site that provides stuff that can help daily life. This project
+                              contains (but is not limited to) a Budget Planner, BMI Calculator, etc.
                             </p>
                             <ul className='mt-2 flex flex-wrap' aria-label='Technologies used:'>
-                              <TechBadge name={'Vue.js'} />
-                              <TechBadge name={'Javascript'} />
-                              <TechBadge name={'Phyton'} />
-                              <TechBadge name={'Django'} />
-                              <TechBadge name={'OpenCV'} />
+                              <TechBadge name={'Next.js'} />
+                              <TechBadge name={'Typescript'} />
+                              <TechBadge name={'Tailwind CSS'} />
                             </ul>
                           </div>
                           <Image
-                            src='/project-1.png'
+                            src='/fukurou-space.png'
+                            alt='Portfolio v1'
                             width={200}
                             height={80}
-                            alt='PRiADI Apps'
                             loading='lazy'
                             className='rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 hidden md:block'
                             style={{ color: 'transparent' }}
@@ -297,7 +287,7 @@ export default function Home() {
                             <ul className='mt-2 flex flex-wrap' aria-label='Technologies used:'>
                               <TechBadge name={'React'} />
                               <TechBadge name={'Javascript'} />
-                              <TechBadge name={'Tailwind'} />
+                              <TechBadge name={'Tailwind CSS'} />
                             </ul>
                           </div>
                           <Image
