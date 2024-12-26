@@ -23,7 +23,7 @@ export default function ProjectPage() {
     },
     {
       year: '2019',
-      name: 'SMKN 13 BANDUNG School Cooperatives Cashier',
+      name: 'SMKN 13 BANDUNG School Cooperatives Store Cashier',
       tools: ['HTML', 'PHP', 'Bootstrap', 'jQuery'],
       link: '',
     },
@@ -52,6 +52,12 @@ export default function ProjectPage() {
       link: '',
     },
     {
+      year: '2021',
+      name: 'PRiADI Corporate Dashboard',
+      tools: ['Codeigniter', 'Bootstrap', 'jQuery'],
+      link: '',
+    },
+    {
       year: '2022',
       name: 'PRiADI Test Desktop',
       tools: ['JavaFX'],
@@ -65,7 +71,7 @@ export default function ProjectPage() {
     },
     {
       year: '2022',
-      name: '[FnB Company x PRiADI] Recruitment Dashboard',
+      name: 'PRiADI Recruitment Dashboard',
       tools: ['Codeigniter', 'Bootstrap', 'jQuery'],
       link: '',
     },
@@ -101,7 +107,7 @@ export default function ProjectPage() {
     },
     {
       year: '2023',
-      name: '[Mining Company x PRiADI] HRIS',
+      name: 'PRiADI HRIS',
       tools: ['Codeigniter', 'Bootstrap'],
       link: '',
     },
