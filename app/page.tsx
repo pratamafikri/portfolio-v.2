@@ -234,8 +234,7 @@ export default function Home() {
                             </a>
                           </h3>
                           <p className='mt-2 text-sm leading-normal'>
-                            Solve daily problems with algorithms. This project contains (but is not limited to) a Budget
-                            Planner, BMI Calculator, etc. Stay tune for more features!.
+                            When boredom meets code.
                           </p>
                           <ul className='mt-2 flex flex-wrap' aria-label='Technologies used:'>
                             <TechBadge name={'Next.js'} />
